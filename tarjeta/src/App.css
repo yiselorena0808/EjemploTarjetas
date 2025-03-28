@@ -1,5 +1,4 @@
-
-.card-list {
+.carta-lista {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -9,24 +8,24 @@
 
 .card {
   width: 250px;
-  background-color: #a8e3eb;
+  width: 250px;;
+  background-color: #7fe3f0;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
   transform: translateY(-10px);
+  color: #000000;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 
 .card img {
-  width: 100%;
-  height: auto;
-  border-bottom: 2px solid #ffffff;
+  width:100%;
+  border-bottom: 2px solid #080808;
 }
 
 
@@ -41,8 +40,11 @@
   margin: 5px 0;
   color: #000000;
 }
+.botones{
+  color: #000000;
+  background-color: rgb(104, 164, 192);
+  border-radius: 20px;
+  margin: 20px;
+  border-color: #0d5555;
 
-.card p:first-of-type {
-  margin-top: 10px;
 }
-

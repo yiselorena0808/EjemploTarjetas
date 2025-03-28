@@ -1,4 +1,5 @@
 import Card from "./Card";
+import "./App.css"
 
 const CardList = () => {
 
@@ -8,7 +9,7 @@ const CardList = () => {
       titulo: 'Squirtle',
       Potencia: 65,
       Velocidad: 43,
-      Carga: 43,
+      Carga: 43
     },
 
     {
@@ -16,7 +17,7 @@ const CardList = () => {
       titulo: 'Charmander',
       Potencia:95,
       Velocidad:65,
-      Carga: 65,
+      Carga: 65
     },
 
     {
@@ -24,33 +25,33 @@ const CardList = () => {
       titulo: 'Sandslash',
       Potencia:110,
       Velocidad: 65,
-      Carga: 100,
+      Carga: 100
     },
     {
         imagen: 'https://pokelore.com/img/pkmn/art/wigglytuff.png',
         titulo: 'Wigglytuff',
         Potencia: 70,
         Velocidad:45,
-        Carga: 85,
+        Carga: 85
       },
       {
         imagen: 'https://pokelore.com/img/pkmn/art/raichu.png',
         titulo: 'Raichu',
         Potencia: 90,
         Velocidad:110,
-        Carga: 55,
+        Carga: 55
       },
       {
         imagen: 'https://pokelore.com/img/pkmn/art/dewgong.png',
         titulo: 'Dewgong',
         Potencia: 80,
         Velocidad:70,
-        Carga: 95,
+        Carga: 95
       },
   ];
 
   return (
-    <div className="card-list">
+    <div className="carta-lista">
       {tarjetas.map((tarjeta, index) => (
         <Card
           key={index}

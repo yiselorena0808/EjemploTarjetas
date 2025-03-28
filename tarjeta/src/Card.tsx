@@ -7,13 +7,14 @@ interface CardProps {
   }
 
   const Card = ({ imagen, titulo, Potencia, Velocidad, Carga }: CardProps) => {
+    const ver=()=>{
+      alert(` la tarjeta es ${titulo}, la potencia es: ${Potencia},la velocidad:${Velocidad},la carga es:${Carga}`);
+    }
     return (
       <div className="card">
         <img src={imagen} alt={titulo} />
         <h2>{titulo}</h2>
-        <p>Potencia: {Potencia}</p>
-        <p>Velocidad: {Velocidad}</p>
-        <p>Carga: {Carga}</p>
+        <button className="botones" onClick={ver}>INFORMACION</button>
       </div>
     );
   };
